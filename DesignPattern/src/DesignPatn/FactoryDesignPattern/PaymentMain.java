@@ -7,7 +7,7 @@ public class PaymentMain {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter payment type");
         String paymentType=sc.next();
-        System.out.println("Enter amount");
+        System.out.println("Enter  the amount");
         double amount = sc.nextFloat();
         new PaymnetService().processPayment(paymentType,amount);
 
