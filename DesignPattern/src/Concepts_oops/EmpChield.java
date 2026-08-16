@@ -23,6 +23,8 @@ public class EmpChield extends Employee {
         Employee e= new EmpChield();
         e.m1();
         e.m2();
+        EmpChield e2= new EmpChield();
+        e2.m1();// Then only call to the child class static method
     }
     
 }
